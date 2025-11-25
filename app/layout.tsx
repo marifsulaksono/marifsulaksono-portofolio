@@ -12,8 +12,8 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: "Muhammad Arif Sulaksono | Portfolio",
-  description: "Professional portfolio website for Muhammad Arif Sulaksono",
+  title: "Muhammad Arif Sulaksono",
+  description: "Professional portfolio website by Muhammad Arif Sulaksono",
   generator: "v0.app",
   icons: {
     icon: "/backend.png",

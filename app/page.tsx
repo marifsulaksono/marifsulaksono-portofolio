@@ -42,10 +42,11 @@ export default function Portfolio() {
               className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-primary/20"
             />
             <h2 className="text-5xl font-bold text-primary mb-4 font-[var(--font-playfair)]">Muhammad Arif Sulaksono</h2>
-            <p className="text-xl text-muted-foreground mb-2">Software Engineer | Problem Solver | Mentor</p>
-            <p className="text-lg text-foreground max-w-2xl mx-auto">
-              Passionate about building scalable, efficient backend systems that power modern applications. Experienced
-              in designing robust APIs, optimizing databases, and implementing cloud solutions.
+            <p className="text-xl text-muted-foreground mb-2">Software (Backend) Engineer | Mentor</p>
+            <p className="text-lg text-foreground max-w-4xl mx-auto">
+              Software Engineer with strong expertise in Golang, Node.js, and distributed system design. 
+              I build scalable, reliable backend architectures, design high-performance APIs, and optimise complex databases. 
+              I enjoy empowering others through mentorship—guiding students and early-career engineers in mastering backend fundamentals, clean architecture, and real-world deployment practices.
             </p>
           </div>
           <div className="flex justify-center space-x-4">
@@ -79,7 +80,7 @@ export default function Portfolio() {
               I specialise in backend development, with hands-on experience in Go, Node.js, and Java, and I enjoy solving complex problems by applying principles of clean architecture, databases, caching, and message-driven systems. Over the past few years, I’ve worked on projects ranging from API development to deployment pipelines, always focusing on writing maintainable code and delivering solutions that create impact.
             </p>
             <p className="text-lg text-card-foreground leading-relaxed mb-6">
-              In addition to my engineering work, I’m also passionate about mentorship and knowledge sharing. I’ve served as a mentor at an edutech startup and led private 1-on-1 classes to help aspiring developers transition into backend development. Mentoring has been a valuable way for me to both contribute to others’ growth and deepen my own understanding — as teaching often challenges me to refine my knowledge and explain concepts clearly.
+              In addition to my engineering work, I’m also passionate about mentorship and knowledge sharing. I’ve served as a mentor at an edutech startup and led bootcamp and private 1-on-1 classes to help aspiring developers transition into backend development. Mentoring has been a valuable way for me to both contribute to others’ growth and deepen my own understanding — as teaching often challenges me to refine my knowledge and explain concepts clearly.
             </p>
             <p className="text-lg text-card-foreground leading-relaxed mb-6">
               Looking ahead, my goal is to continue growing as a professional software engineer by contributing to impactful products, while staying curious, collaborative, and open to challenges.
@@ -153,6 +154,7 @@ export default function Portfolio() {
                 </ul>
                 <div className="flex flex-wrap gap-2 mt-4">
                   <Badge variant="secondary">Go</Badge>
+                  <Badge variant="secondary">Java</Badge>
                   <Badge variant="secondary">Object-Oriented Programming</Badge>
                   <Badge variant="secondary">Data Structures</Badge>
                   <Badge variant="secondary">Concurrency</Badge>
