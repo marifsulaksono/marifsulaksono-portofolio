@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { GeistSans } from "geist/font/sans"
 import { GeistMono } from "geist/font/mono"
 import { Playfair_Display } from "next/font/google"
+import { SiteHeader } from "@/components/site-header"
 import "./globals.css"
 
 const playfair = Playfair_Display({
@@ -38,7 +39,12 @@ html {
 }
         `}</style>
       </head>
-      <body className={`${playfair.variable}`}>{children}</body>
+      <body className={`${playfair.variable}`}>
+        <div className="min-h-screen bg-background">
+          <SiteHeader />
+          {children}
+        </div>
+      </body>
     </html>
   )
 }

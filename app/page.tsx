@@ -5,33 +5,7 @@ import { Github, Linkedin, Mail, ExternalLink, Database, Server, Code, Cloud, Br
 
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-background">
-      {/* Header */}
-      <header className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <a href="#">
-            <h1 className="text-2xl font-bold text-primary font-[var(--font-playfair)]">Hello Word!</h1>
-          </a>
-          <nav className="hidden md:flex space-x-6">
-            <a href="#about" className="text-foreground hover:text-primary transition-colors">
-              About
-            </a>
-            <a href="#experience" className="text-foreground hover:text-primary transition-colors">
-              Experience
-            </a>
-            <a href="#skills" className="text-foreground hover:text-primary transition-colors">
-              Skills
-            </a>
-            <a href="#projects" className="text-foreground hover:text-primary transition-colors">
-              Projects
-            </a>
-            <a href="#contact" className="text-foreground hover:text-primary transition-colors">
-              Contact
-            </a>
-          </nav>
-        </div>
-      </header>
-
+    <>
       {/* Hero Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto text-center">
@@ -389,6 +363,6 @@ export default function Portfolio() {
             Built with Next.js and Tailwind CSS.</p>
         </div>
       </footer>
-    </div>
+    </>
   )
 }
