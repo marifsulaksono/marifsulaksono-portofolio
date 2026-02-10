@@ -23,15 +23,15 @@ export default function Portfolio() {
               I enjoy empowering others through mentorship—guiding students and early-career engineers in mastering backend fundamentals, clean architecture, and real-world deployment practices.
             </p>
           </div>
-          <div className="flex justify-center space-x-4">
-            <a href="mailto:marifsulaksono@gmail.com/" target="_blank" rel="noopener noreferrer">
-              <Button className="bg-primary hover:bg-primary/90">
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <a href="mailto:marifsulaksono@gmail.com" className="w-full sm:w-auto" target="_blank" rel="noopener noreferrer">
+              <Button className="bg-primary hover:bg-primary/90 w-full sm:w-auto">
                 <Mail className="w-4 h-4 mr-2" />
                 Get In Touch
               </Button>
             </a>
-            <a href="https://www.linkedin.com/in/marifsulaksono/" target="_blank" rel="noopener noreferrer">
-              <Button variant="outline">
+            <a href="https://www.linkedin.com/in/marifsulaksono/" className="w-full sm:w-auto" target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" className="w-full sm:w-auto">
                 <Linkedin className="w-4 h-4 mr-2" />
                 View LinkedIn
               </Button>
@@ -72,17 +72,17 @@ export default function Portfolio() {
           <div className="max-w-4xl mx-auto space-y-8">
             <Card>
               <CardHeader>
-                <div className="flex items-start justify-between">
-                  <div>
+                <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                  <div className="min-w-0">
                     <CardTitle className="flex items-center text-xl">
                       <Briefcase className="w-5 h-5 mr-2 text-accent" />
                       Backend Developer Staff
                     </CardTitle>
-                    <CardDescription className="text-lg font-medium text-primary mt-1">
+                    <CardDescription className="text-lg font-medium text-primary mt-1 break-words">
                       <a href="https://www.linkedin.com/company/pt-ada-ide-langsung-jalan/" target="_blank" rel="noopener noreferrer">PT Ada Ide Langsung Jalan</a>
                     </CardDescription>
                   </div>
-                  <Badge variant="outline" className="text-sm">
+                  <Badge variant="outline" className="text-sm shrink-0 self-start">
                     May 2025 - Present
                   </Badge>
                 </div>
@@ -107,15 +107,15 @@ export default function Portfolio() {
 
             <Card>
               <CardHeader>
-                <div className="flex items-start justify-between">
-                  <div>
+                <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                  <div className="min-w-0">
                     <CardTitle className="flex items-center text-xl">
                       <Briefcase className="w-5 h-5 mr-2 text-accent" />
                       Backend Development Mentor
                     </CardTitle>
-                    <CardDescription className="text-lg font-medium text-primary mt-1"><a href="https://dibimbing.id" target="_blank">dibimbing.id</a></CardDescription>
+                    <CardDescription className="text-lg font-medium text-primary mt-1 break-words"><a href="https://dibimbing.id" target="_blank">dibimbing.id</a></CardDescription>
                   </div>
-                  <Badge variant="outline" className="text-sm">
+                  <Badge variant="outline" className="text-sm shrink-0 self-start">
                     Des 2024 - Present
                   </Badge>
                 </div>
@@ -141,17 +141,17 @@ export default function Portfolio() {
 
             <Card>
               <CardHeader>
-                <div className="flex items-start justify-between">
-                  <div>
+                <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                  <div className="min-w-0">
                     <CardTitle className="flex items-center text-xl">
                       <Briefcase className="w-5 h-5 mr-2 text-accent" />
                       Web Programmer
                     </CardTitle>
-                    <CardDescription className="text-lg font-medium text-primary mt-1">
+                    <CardDescription className="text-lg font-medium text-primary mt-1 break-words">
                       <a href="https://venturo.id/" target="_blank" rel="noopener noreferrer">Venturo Pro</a>
                     </CardDescription>
                   </div>
-                  <Badge variant="outline" className="text-sm">
+                  <Badge variant="outline" className="text-sm shrink-0 self-start">
                     Apr 2024 - May 2025
                   </Badge>
                 </div>
@@ -281,7 +281,7 @@ export default function Portfolio() {
                   <Badge variant="outline">Redis</Badge>
                   <Badge variant="outline">Logrus</Badge>
                 </div>
-                <div className="flex space-x-2">
+                <div className="flex flex-wrap gap-2">
                   <Button size="sm" variant="outline">
                     <Github className="w-4 h-4 mr-1" />
                     <a href="https://github.com/marifsulaksono/go-boilerplate" target="_blank" rel="noopener noreferrer">Code</a>
@@ -309,7 +309,7 @@ export default function Portfolio() {
                   <Badge variant="outline">SMTP</Badge>
                   <Badge variant="outline">Google OAuth</Badge>
                 </div>
-                <div className="flex space-x-2">
+                <div className="flex flex-wrap gap-2">
                   <Button size="sm" variant="outline">
                     <Github className="w-4 h-4 mr-1" />
                     <a href="https://github.com/marifsulaksono/go-store" target="_blank" rel="noopener noreferrer">Code</a>
@@ -332,21 +332,21 @@ export default function Portfolio() {
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
             I'm always interested in discussing new opportunities, challenging projects, mentor, or just connecting with fellow developers. Feel free to reach out!
           </p>
-          <div className="flex justify-center space-x-6">
-            <a href="mailto:marifsulaksono@gmail.com/" target="_blank" rel="noopener noreferrer">
-              <Button size="lg" className="bg-primary hover:bg-primary/90">
+          <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-4">
+            <a href="mailto:marifsulaksono@gmail.com" className="w-full sm:w-auto" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 w-full sm:w-auto">
                 <Mail className="w-5 h-5 mr-2" />
                 marifsulaksono@gmail.com
               </Button>
             </a>
-            <a href="https://www.linkedin.com/in/marifsulaksono/" target="_blank" rel="noopener noreferrer">
-              <Button size="lg" variant="outline">
+            <a href="https://www.linkedin.com/in/marifsulaksono/" className="w-full sm:w-auto" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" variant="outline" className="w-full sm:w-auto">
                 <Linkedin className="w-5 h-5 mr-2" />
                 LinkedIn
               </Button>
             </a>
-            <a href="https://github.com/marifsulaksono" target="_blank" rel="noopener noreferrer">
-              <Button size="lg" variant="outline">
+            <a href="https://github.com/marifsulaksono" className="w-full sm:w-auto" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" variant="outline" className="w-full sm:w-auto">
                 <Github className="w-5 h-5 mr-2" />
                 GitHub
               </Button>
